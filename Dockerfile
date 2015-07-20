@@ -4,4 +4,6 @@ RUN mkdir -p /opt/app
 WORKDIR /opt/app
 ADD . /opt/app
 
+EXPOSE 80
+
 CMD [ "php","index.php" ]
